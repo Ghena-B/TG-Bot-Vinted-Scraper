@@ -34,4 +34,4 @@ jobs:
           DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
-          python your_scraper_script.py
+          python scraper.py
