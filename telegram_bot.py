@@ -1,6 +1,7 @@
 import os
 import json
 import logging
+from keep_alive import keep_alive
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest
 from telegram.ext import (
@@ -503,4 +504,5 @@ def main():
     application.run_polling()
 
 if __name__ == "__main__":
+    keep_alive()
     main()
