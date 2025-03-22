@@ -180,7 +180,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     "price_from": None,
                     "price_to": None,
                     "currency": None,
-                    "size_ids_men": []
+                    "size_ids_men": [],
+                    "order": "newest_first",
+                    "disabled_personalization": "true"
                 },
                 "women": {
                     "name": "Women's Config",
@@ -190,7 +192,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     "price_from": None,
                     "price_to": None,
                     "currency": None,
-                    "size_ids_women": []
+                    "size_ids_women": [],
+                    "order": "newest_first",
+                    "disabled_personalization": "true"
                 }
             }
         
