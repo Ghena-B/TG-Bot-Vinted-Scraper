@@ -174,6 +174,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             configs[chat_id] = {
                 "men": {
                     "name": "Men's Config",
+                    "catalog": [1231],
+                    "time": 1742677690,  
                     "brand_ids": [],
                     "color_ids": [],
                     "status_ids": [],
@@ -186,6 +188,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 },
                 "women": {
                     "name": "Women's Config",
+                    "catalog": [16],
+                    "time": 1742678858,  
                     "brand_ids": [],
                     "color_ids": [],
                     "status_ids": [],
